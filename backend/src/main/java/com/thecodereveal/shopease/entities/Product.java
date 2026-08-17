@@ -74,7 +74,6 @@ public class Product {
         createdAt = new java.util.Date();
         updatedAt = createdAt;
     }
-
     @PreUpdate
     protected void onUpdate() {
         updatedAt = new java.util.Date();
